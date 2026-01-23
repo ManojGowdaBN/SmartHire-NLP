@@ -28,8 +28,13 @@ The system leverages pre-trained SentenceTransformer models to encode text. For 
 # Project Structure
 
 extract_resume.py – Extracts text and key fields (skills, education) from PDF resumes.
+
 classify_resumes.py – Classifies/categorizes resumes into predefined labels.
+
 parse_job.py – Processes job description text to extract requirements.
+
 match_candidates.py – Generates embeddings for resumes and jobs, then ranks candidates by similarity.
+
 visualize.py – Creates plots (using seaborn/matplotlib) to show data distributions.
+
 requirements.txt – Lists Python package dependencies.
